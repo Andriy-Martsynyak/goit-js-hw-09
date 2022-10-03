@@ -1,7 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'notiflix/dist/notiflix-3.2.5.min.css';
 
-refs = {
+const refs = {
   delay: document.querySelector('input[name=delay]'),
   step: document.querySelector('input[name=step]'),
   amount: document.querySelector('input[name=amount]'),
